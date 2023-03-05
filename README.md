@@ -18,4 +18,5 @@ The 'Double_and_Add' method performs point multiplication using the double-and-a
 Note that this implementation uses double precision floating point arithmetic to perform modular inverse and slope calculations, which may not be suitable for cryptographic applications due to potential precision loss and side-channel attacks. Additionally, the curve parameters a and p are hardcoded and not randomly generated, which can also weaken the security of the scheme.
 
 
-## For More Info : https://avinetworks.com/glossary/elliptic-curve-cryptography/
+### For More Info :
+https://avinetworks.com/glossary/elliptic-curve-cryptography/
