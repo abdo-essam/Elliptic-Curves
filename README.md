@@ -1,5 +1,8 @@
 # Elliptic-Curves
-Elliptic Curves
+
+# Faculty Of Computer And Artificial Intelligence Cairo University `FCAI-CU`
+
+## 	Cyber Security Assignment
 
 
 This is an implementation of the ElGamal encryption scheme using elliptic curve cryptography. The main method generates a random integer i as the private key for Alice and another random integer d as the private key for Bob. It then calls the 'elgamal' method to perform the encryption and decryption process.
