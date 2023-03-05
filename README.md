@@ -5,7 +5,7 @@
 ## 	Cyber Security Assignment
 
 
-![afdf] https://github.com/abdo-essam/Elliptic-Curves/blob/main/elliptic-curve-cryptography-diagram.png?raw=true
+![afdf]https://github.com/abdo-essam/Elliptic-Curves/blob/main/elliptic-curve-cryptography-diagram.png?raw=true
 
 This is an implementation of the ElGamal encryption scheme using elliptic curve cryptography. The main method generates a random integer i as the private key for Alice and another random integer d as the private key for Bob. It then calls the 'elgamal' method to perform the encryption and decryption process.
 
