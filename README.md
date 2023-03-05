@@ -14,3 +14,6 @@ Next, it multiplies the plaintext data with the x-coordinate of the shared secre
 The 'Double_and_Add' method performs point multiplication using the double-and-add algorithm on the input point (x, y) with the elliptic curve parameters a and p, and a positive integer H. It first converts H to binary and then iterates through its bits, doubling the point in each iteration and adding the original point if the bit is 1. It also handles negative slope and negative x-coordinate cases in the addition step.
 
 Note that this implementation uses double precision floating point arithmetic to perform modular inverse and slope calculations, which may not be suitable for cryptographic applications due to potential precision loss and side-channel attacks. Additionally, the curve parameters a and p are hardcoded and not randomly generated, which can also weaken the security of the scheme.
+
+
+## For More Info : https://avinetworks.com/glossary/elliptic-curve-cryptography/
